@@ -1,5 +1,6 @@
 # nrf24l01-bt-jammer
-This can jam bt classic completely but can only disrupt BLE connections as it uses adaptive frequency hopping so this can only sweep frequencies in the 2.4 Ghz band. I have used a raspberry pi pico WH and the nrf24l01+pa+lna comm module for transmission.
+This can jam bt classic completely but can only disrupt BLE connections as it uses adaptive frequency hopping so this can only sweep frequencies in the 2.4 Ghz band. I have used a raspberry pi pico WH and the nrf24l01+pa+lna comm module for transmission.<br>
+
 <img src="https://github.com/user-attachments/assets/23385426-a4fe-40c0-a9ad-4d94741d94d4" alt="hwd" width="270"/>
 
 
@@ -31,4 +32,4 @@ This is optional but for displaying if the nrf24l01 module is working i have use
 
 ---
 ## Thony
-After configuring the hardware connect the pico to your pc by holding the bootsell button. COpy and past the 
+After configuring the hardware connect the pico to your pc by holding the bootsell button. COpy and past the `nrf24l01.py` and `main.py` to the root dir of the pico and also install the ssd1306 oled driver lib if you are using the module. then test by running the main.py file.
