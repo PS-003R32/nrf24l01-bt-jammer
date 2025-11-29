@@ -1,5 +1,5 @@
 # nrf24l01-bt-jammer
-This can jam bt classic completely but can only disrupt BLE connections as it uses adaptive frequency hopping so this can only sweep frequencies in the 2.4 Ghz band. I have used a raspberry pi pico WH and the nrf24l01+pa+lna comm module for transmission.<br>
+This is a simple setup that can jam bt classic completely but can only disrupt BLE connections as it uses adaptive frequency hopping so this can only sweep frequencies in the 2.4 Ghz band. I have used a raspberry pi pico WH and the nrf24l01+pa+lna comm module for CW transmission. You can optionaly use the ssd1306 module for errors as i have used but if you are not, then you have to modify the main block of code in the main.py file.<br>
 
 <img src="https://github.com/user-attachments/assets/23385426-a4fe-40c0-a9ad-4d94741d94d4" alt="hwd" width="270"/>
 
